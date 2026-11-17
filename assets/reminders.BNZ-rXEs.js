@@ -1,0 +1,1 @@
+import{t as e,v as t}from"./family.o-051fSG.js";function r(r){if(!r.repeat)return r.date;const a=(new Date).getFullYear();for(let n=0;n<9;n++){const i=`${a+n}${r.date.slice(4)}`;if(t(i)&&i>=e())return i}return r.date}function a(t){return Math.ceil((new Date(r(t)+"T12:00:00").getTime()-new Date(e()+"T12:00:00").getTime())/864e5)}export{r as n,a as r};
